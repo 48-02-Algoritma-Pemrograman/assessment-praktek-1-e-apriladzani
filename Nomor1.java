@@ -10,8 +10,10 @@ public class Nomor1{
 
         if (jumlahAnggotaKeluarga <= 3) {
             tunjanganKesehatan = 100000 * jumlahAnggotaKeluarga;
-        }else {
+        }else if (jumlahAnggotaKeluarga > 3){
             tunjanganKesehatan = (100000 * jumlahAnggotaKeluarga) - ((jumlahAnggotaKeluarga - 3) * 50000);
+        }else {
+            tunjanganKesehatan = 0;
         }
 
         System.out.println("Besar tunjangan kesehatan = " + tunjanganKesehatan);

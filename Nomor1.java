@@ -6,7 +6,6 @@ public class Nomor1{
         int jumlahAnggotaKeluarga;
         double tunjanganKesehatan;
 
-        System.out.print("Jumlah anggota keluarga:");
         jumlahAnggotaKeluarga = scanner.nextInt();
 
         if (jumlahAnggotaKeluarga <= 3) {

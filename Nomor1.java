@@ -17,7 +17,7 @@ public class Nomor1{
             tunjanganKesehatan = 0;
         }
 
-        System.out.println("Besar tunjangan kesehatan = " + tunjanganKesehatan);
+        System.out.println(tunjanganKesehatan);
 
         scanner.close();
     }

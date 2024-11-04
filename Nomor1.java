@@ -4,7 +4,7 @@ public class Nomor1{
         Scanner scanner = new Scanner(System.in);
 
         int jumlahAnggotaKeluarga;
-        double tunjanganKesehatan;
+        int tunjanganKesehatan;
 
         jumlahAnggotaKeluarga = scanner.nextInt();
 
